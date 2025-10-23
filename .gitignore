@@ -1,0 +1,13 @@
+# Ignore __pycache__ folder (precompiled Python code)
+__pycache__/
+
+# Ignore venv folder (Python Virtual Environment)
+venv/
+virtualenvironment/
+
+# Optional: ignore instance folder (used by Flask web app, e.g., for SQLite database)
+instance/
+
+# Optional: ignore local environment files or secrets
+.env
+*.sqlite3
